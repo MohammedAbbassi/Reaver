@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+cve_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project-specific
+reaver_results.json
+nmap_*.xml
+nuclei_results.json
+urls.txt
+
+# OS-specific
+.DS_Store
+Thumbs.db
